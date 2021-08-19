@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'qanelasregular';
+    src: url('../fonts/qanelas/qanelas-regular/qanelas-regular.eot');
+    src: url('../fonts/qanelas/qanelas-regular/qanelas-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/qanelas/qanelas-regular/qanelas-regular.woff2') format('woff2'),
+         url('../fonts/qanelas/qanelas-regular/qanelas-regular.woff') format('woff'),
+         url('../fonts/qanelas/qanelas-regular/qanelas-regular.ttf') format('truetype'),
+         url('../fonts/qanelas/qanelas-regular/qanelas-regular.svg#qanelasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+// @font-face {
+//     font-family: 'tt_normsbold';
+//     src: url('../fonts/ttnorms/ttnorms-bold/ttnorms-bold.eot');
+//     src: url('../fonts/ttnorms/ttnorms-bold/ttnorms-bold.eot?#iefix') format('embedded-opentype'),
+//          url('../fonts/ttnorms/ttnorms-bold/ttnorms-bold.woff2') format('woff2'),
+//          url('../fonts/ttnorms/ttnorms-bold/ttnorms-bold.woff') format('woff'),
+//          url('../fonts/ttnorms/ttnorms-bold/ttnorms-bold.ttf') format('truetype'),
+//          url('../fonts/ttnorms/ttnorms-bold/ttnorms-bold.svg#tt_normsbold') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+
+
+ymaps[class$="-copyright"] {
+    display: none;
+}
+
+.layout{
+  	flex: 1 0 auto;
+}
+
+
+.wrapper{
+
+}
+.container-fluid{
+	width: 100%;
+	max-width: 1216px;
+    padding: 0 20px;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+.page-content{
+	padding: 20px 0;
+}
+
