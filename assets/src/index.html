@@ -5,11 +5,80 @@
 </head>
 <body>
 	<!--LAYOUT-->
-	<div class="layout">
+	<div class="layout m-index">
 		//= template/header.html
 		<main class="page-content workarea">
 			<div class="container-fluid">
-				workarea
+				<!-- content-part -->
+				<div class="index-top-wrap">
+                    <div class="breadcrumbs">
+                        <div class="container-fluid">
+                            <div class="breadcrumbs__wrap">
+                                <a href="#" class="breadcrumbs__item">Главная</a>
+                                <a href="#" class="breadcrumbs__item">Каталог</a>
+                                <span class="breadcrumbs__item">Новые автомобили</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="index-top">
+                        <div class="index-top__item">
+                            <div class="index-top__img" style="background-image: url(img/content/main-top1.jpg);"></div>
+                            <div class="index-top__in">
+                                <div class="container-fluid">
+                                    <div class="indent">
+                                        <div class="index-top__title">
+                                            Новые<br> автомобили<br> в лизинг
+                                        </div>
+                                        <div class="index-top-add">
+                                            <div class="index-top-add__item">Без переплат</div>
+                                            <div class="index-top-add__item">Первый взнос  <strong>0%</strong></div>
+                                        </div>
+                                        <div class="index-top-form">
+                                            <form action="#" method="post">
+                                                <div class="index-top-form__wrap">
+                                                    <div class="index-top-form__item">
+                                                        <input type="text" placeholder="Иван">
+                                                    </div>
+                                                    <div class="index-top-form__item">
+                                                        <input type="tel" placeholder="Телефон">
+                                                    </div>
+                                                    <div class="index-top-form__item m-submit">
+                                                        <input type="submit" value="Получить расчет">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="index-form-msg">
+                                            Оставляя заявку, вы даёте согласие на обработку <a href="#">Персональных данных</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="index-catalog">
+                    <div class="container-fluid">
+                        <div class="indent">
+                            <div class="index-title">
+                                Каталог автомобилей
+                            </div>
+                        </div>
+                        dd
+                    </div>
+                </div>
+                <div class="index-leasing">
+                    <div class="container-fluid">
+                        <div class="indent">
+                            <div class="index-title">
+                                Рассчитать лизинг
+                            </div>
+                        </div>
+                        dd
+                    </div>
+                </div>
+				<!-- end content-part -->
 			</div>
 		</main>
 	</div><!-- END LAYOUT-->
@@ -17,6 +86,6 @@
 
 	<script src="js/libs/libs.min.js"></script>
 	<script src="js/interface.js"></script>
-	<script src="js/pages.js"></script>
+	<!-- <script src="js/pages.js"></script> -->
 </body>
 </html>

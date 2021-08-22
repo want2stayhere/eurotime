@@ -1,3 +1,224 @@
 .page-header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 12;
+}
+.page-header-top__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: inline-block;
+    width: 153px;
+    height: 37px;
+    background: url(../img/svg/logo.svg) center/contain no-repeat;
+}
+.page-header-top{
+    background: #D4D6D8;
+}
+.page-header-top-more{
+    display: flex;
+    align-items: center;
+}
 
+
+.page-header-toggle{
+    display: flex;
+    margin-right: 32px;
+}
+
+.page-header-toggle__item{
+    padding: 32px 41px 21px 41px;
+    background: #e8e8e8;
+    color: #d74e2e;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    letter-spacing: 0.03em;
+    &.active{
+        pointer-events: none;
+        background: $default-bg;
+        color: #fff;
+    }
+    &:hover{
+        background: $default-bg;
+        color: #fff;
+    }
+}
+
+.page-header__btn{
+    font-size: 14px;
+    border: 1px solid #828282;
+    border-radius: 20px;
+    color: #333;
+    padding: 6px 19px;
+    display: inline-block;
+    margin: 8px 0 0 37px;
+    transition: all .3s ease;
+    &:hover{
+        color: $alt-color;
+        border: 1px solid $default-bg;
+    }
+}
+.page-header__phone{
+    font-size: 14px;
+    color: #333;
+    padding-left: 20px;
+    position: relative;
+    margin: 10px 0 0 39px;
+    transition: color .3s ease;
+    &:before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 12px;
+        height: 13px;
+        background: url(../img/svg/f-phone.svg) center/cover no-repeat;
+    }
+    &:hover{
+        color: $alt-color;
+    }
+}
+.page-header__location{
+    font-size: 13px;
+    font-style: normal;
+    padding-left: 20px;
+    position: relative;
+    margin: 10px 0 0 0;
+    &:before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 9px;
+        height: 13px;
+        background: url(../img/svg/f-location.svg) center/cover no-repeat;
+    }
+}
+
+
+
+
+.page-header-menu{
+    background: #fff;
+    padding: 29px 0;
+}
+.page-header-menu__wrap{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    margin-right: 194px;
+}
+.menu-btn{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #828282;
+    transition: all .3s ease;
+	&.active{
+		.burger-icon {
+		    &:before{
+				transform: translateY(4px) rotate(45deg);
+		    }
+		    &:after{
+				transform: translateY(-4px) rotate(-45deg);
+		    }
+		}
+	}
+    &:hover{
+        color: $alt-color;
+        .burger-icon{
+            &:before,
+	        &:after{
+                background-color: $default-bg;
+            }
+        }
+    }
+}
+.burger-icon {
+	display: block;
+	position: relative;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	width: 50px;
+	height: 3px;
+	transition: all 0.3s ease;
+    margin-right: 32px;
+	&:before,
+	&:after{
+		display: block;
+		width: 50px;
+		height: 2px;
+		background-color: #828282;
+		transition: all 0.3s ease;
+		position: absolute;
+		content: "";
+	}
+	&:before{
+		top: -4px;
+	}
+	&:after{
+		top: 4px;
+	}
+}
+
+
+
+.page-header-m{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+.page-header-search{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(../img/svg/search.svg) center no-repeat;
+    transition: background .3s ease;
+    &:hover{
+        background: url(../img/svg/search-h.svg) center no-repeat;
+    }
+}
+.page-header-nav{
+    display: flex;
+}
+.page-header-nav__link{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    display: inline-flex;
+    align-items: center;
+    transition: color .3s ease;
+    &:hover{
+        color: $alt-color;
+    }
+}
+.page-header-nav__item{
+    margin-right: 64px;
+    &:last-child{
+        margin-right: 0;
+    }
+    &.m-sub{
+        .page-header-nav__link{
+            &:after{
+                content: "";
+                display: inline-block;
+                width: 6px;
+                height: 5px;
+                background: url(../img/svg/m-arr.svg) center no-repeat;
+                margin:0 0 0 10px;
+            }
+        }
+    }
 }
