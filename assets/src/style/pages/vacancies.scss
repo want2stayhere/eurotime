@@ -1,0 +1,93 @@
+.vacancies{
+    margin-bottom: 80px;
+}
+
+.vacancies-top{
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    .team__pnone,
+    .team__mail{
+        margin-bottom: 0;
+        font-size: 18px;
+        margin-right: 60px;
+    }
+}
+.vacancies-top__pre{
+    font-family: 'als_gorizontregular_expanded';
+    font-size: 30px;
+    margin-right: 60px;
+    
+}
+
+.title-btn{
+    &.m-complex{
+        display: inline-flex;
+        align-items: center;
+    }
+}
+.title-btn__icon__download{
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    background: url(../img/svg/download-b.svg) center/cover no-repeat;
+    margin-left: 10px;
+}
+
+
+
+.vacancies__list{
+    display: flex;
+    flex-wrap:wrap;
+    margin-right: -20px;
+    margin-bottom: 80px;
+}
+.vacancies__item{
+    width: 50%;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    &.active{
+        .vacancies__in{
+            background: transparent;
+            border: 1px solid #828282;
+        } 
+    }
+}
+.vacancies__in{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 70px 90px 77px 100px;
+    border: 1px solid #fff;
+}
+
+.vacancies__top{
+    font-size: 24px;
+    line-height: 1.2;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #828282;
+    font-family: 'als_gorizontregular_expanded';
+}
+.vacancies__info{
+    margin-bottom: 40px;
+}
+
+.vacancies-b{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $alt-color;
+}
+.vacancies-b__date{
+    font-size: 16px;
+    font-style: italic;
+}
+.vacancies-b__sal{
+    font-family: 'als_gorizontregular_expanded';
+    span{
+        font-size: 14px;
+    }
+}

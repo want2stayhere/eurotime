@@ -220,6 +220,7 @@
                 margin:0 0 0 10px;
             }
         }
+        
     }
 }
 
@@ -268,6 +269,9 @@
     //position: relative;
     display: flex;
     align-items: flex-start;
+    &.visible-lg{
+        display: none;
+    }   
     &:last-child{
         margin-bottom: 0;
     }
@@ -291,6 +295,7 @@
         
         &:hover{
             .page-header-sub__link{
+                color: $alt-color;
                 &:after{
                     border-color: transparent transparent transparent #B8543E;
                 }
@@ -363,4 +368,107 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+
+
+.js-m-sub-mobile-trigger{
+    display: none;
+}
+
+
+
+// .m-sub{
+//     pointer-events: none;
+//     .page-header-sub__link{
+//         pointer-events: all;
+//     }
+// }
+.page-header-nav__item{
+    &.m-sub{
+        position: relative;
+    }
+}
+
+.page-header-nav-sub{
+    padding: 62px 51px;
+    background: linear-gradient(180deg, #E8E8E8 0%, #F6F6F6 30%);
+    position: absolute;
+    right: 3px;
+    transform: translateX(50%);
+    top: calc(100% + 29px);
+    display: none;
+    &:before{
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 10px 10px 10px;
+        border-color: transparent transparent #e8e8e8 transparent;
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+}
+
+.page-header-nav-sub__item{
+    margin-bottom: 26px;
+    display: flex;
+    align-items: flex-start;
+    &:last-child{
+        margin-bottom: 0;
+    }
+    
+    &.m-sub{
+        .page-header-nav-sub__link{
+            &:after{
+                content: "";
+                display: inline-block;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 4px 0 4px 8px;
+                border-color: transparent transparent transparent #828282;
+                position: absolute;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                transition: all .3s ease;
+            }
+        }
+        &:hover{
+            .page-header-nav-sub__link{
+                color: $alt-color;
+                &:after{
+                    border-color: transparent transparent transparent #b8543e;
+                }
+            }
+            
+        }
+    }
+}
+
+.page-header-nav-sub__link{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #333;
+    transition: all .3s ease;
+    padding-left: 49px;
+    padding-right: 20px;
+    display: block;
+    position: relative;
+    width: 247px;
+    min-width: 247px;
+    
+    &:before{
+        content: "";
+        width: 8px;
+        height: 8px;
+        background: #b8543e;
+        position: absolute;
+        left: 0;
+        top: 7px;
+    }
 }

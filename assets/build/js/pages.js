@@ -13,5 +13,10 @@ $('body').append(
 		<li><a href="press.html">Press</a></li> \
 		<li><a href="news.html">News</a></li> \
 		<li><a href="reviews.html">Reviews</a></li> \
+		<li><a href="services.html">Services</a></li> \
+		<li><a href="offers.html">Offers</a></li> \
+		<li><a href="clients.html">Clients</a></li> \
+		<li><a href="team.html">Team</a></li> \
+		<li><a href="vacancies.html">Vacancies</a></li> \
 	</ol> \
 </div>');

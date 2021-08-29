@@ -351,7 +351,11 @@ span.breadcrumbs__item{
     }
 }
 
-
+.page-title{
+    h1{
+        line-height: 1;
+    }
+}
 
 .r-tabs-nav {
     margin: 0 -10px 130px -10px!important;
@@ -452,7 +456,7 @@ span.breadcrumbs__item{
 }
 
 
-:not(.m-index){
+.layout:not(.m-index){
     .el-animate{
         opacity: 1;
         transform: translateY(0);
