@@ -8,9 +8,29 @@
 }
 
 //MEDIA
+@media screen and (max-width: 1380px){
+    .page-header-sub__view {
+        width: 530px;
+        position: relative;
+        padding: 25px 55px 91px 0;
+    }
+    .page-header-submenu {
+        top: 25px;
+        left: 220px;
+        min-width: 230px;
+    }
+    .page-header-sub__link {
+        width: 220px;
+        min-width: 220px;
+    }
+    .page-header-sub {
+        padding: 0 24px;
+    }
+}
+
 @media screen and (max-width: 1200px){
     body {
-        padding: 0 40px;
+        padding: 0 24px;
     }
     .container-fluid {
         max-width: 1248px;
@@ -82,6 +102,153 @@
         padding: 40px;
         margin: 0 20px;
     }
+    .page-header__location{
+        text-indent: -9999em;
+        padding-left: 9px;
+        margin: 5px 0 0 0;
+    }
+    .page-header-toggle__item {
+        padding: 20px 30px 13px 30px;
+    }
+    .page-header__phone {
+        margin: 5px 0 0 25px;
+    }
+    .page-header__btn {
+        margin: 3px 0 0 25px;
+    }
+    .page-header-menu {
+        padding: 19px 0;
+    }
+    .page-header-nav__link{
+        font-size: 13px;
+    }
+    .page-header-nav__item {
+        margin-right: 25px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    .page-header-m {
+        justify-content: flex-end;
+    }
+    .menu {
+        margin-right: 20px;
+    }
+    .page-header-search{
+        margin-left: 46px;
+    }
+    .m-index .page-content {
+        padding-bottom: 0;
+    }
+    .page-content {
+        padding: 110px 0 20px;
+    }
+    .index-top__title {
+        font-size: 40px;
+        margin-bottom: 24px;
+    }
+    .index-top-wrap {
+        margin: 0 -24px 80px;
+    }
+    .index-top-wrap .breadcrumbs {
+        padding-top: 30px;
+    }
+    .index-top-add {
+        padding-left: 55px;
+        margin-bottom: 40px;
+    }
+    .index-top-add__item {
+        font-size: inherit;
+    }
+    .index-catalog {
+        padding-bottom: 80px;
+    }
+    .index-catalog-wrap{
+        margin-bottom: 0;
+    }
+    .index-leasing{
+        padding: 80px 0;
+    }
+    .index-news {
+        padding: 80px 0 30px;
+        margin-bottom: 0;
+    }
+    .index-top__in {
+        padding: 115px 0 0px;
+    }
+    .index-form-msg {
+        text-align: left;
+        padding-right: 0;
+    }
+    .index-top-form {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .index-top-form__item.m-submit {
+        width: 180px;
+        max-width: 180px;
+        margin-left: 40px;
+    }
+    .s-current {
+        font-size: 22px;
+    }
+    .s-total {
+        font-size: 16px;
+    }
+    .pagingInfo {
+        min-width: 80px;
+    }
+    .index-top-btn {
+        padding-left: 55px;
+    }
+    .index-top__item {
+        min-height: 570px;
+    }
+    .index-catalog__inner {
+        padding: 25px;
+    }
+    .index-catalog__item{
+        padding-right: 13px;
+    }
+    .index-leasing__view {
+        margin-left: 60px;
+    }
+    .index-leasing,
+    .index-news,
+    .index-services,
+    .index-catalog{
+        margin: 0 -24px;
+    }
+    .index-services{
+        padding: 80px 0;
+    }
+    .page-header-sub {
+        padding: 0;
+    }
+    .page-header-sub__link {
+        width: 201px;
+        min-width: 201px;
+        padding-left: 25px;
+    }
+    .page-header-submeu__link {
+        padding-left: 15px;
+    }
+    .r-tabs-nav {
+        margin: 0 -10px 50px -10px!important;
+    }
+    .press__img {
+        margin-right: 25px;
+    }
+    .press__info {
+        width: 300px;
+        padding-right: 25px;
+    }
+    .p-download {
+        padding: 8px 18px;
+    }
+    .pdf{
+        margin-right: 40px;
+    }
 }
 
 
@@ -135,11 +302,154 @@
         padding-bottom: 10px;
         margin-bottom: 10px;
     }
+    .page-header-nav__item {
+        margin-right: 10px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    .burger-icon {
+        margin-right: 15px;
+    }
+    .page-header-nav__item.m-sub .page-header-nav__link:after {
+        margin: 0 0 0 5px;
+    }
+    .page-header-toggle {
+        margin-right: 20px;
+    }
+    .page-header-toggle__item{
+        font-size: 13px;
+        padding: 21px 25px 14px 25px;
+    }
+    .logo {
+        width: 104px;
+        height: 25px;
+    }
+    .page-footer__logo {
+        width: 104px;
+        height: 25px;
+    }
+    .index-title {
+        font-size: 28px;
+    }
+    .index-title-wrap__add{
+        font-size: 18px;
+    }
+    .index-title-complex.m-bottom {
+        align-items: flex-start;
+    }
+    .title-btn {
+        padding: 6px 20px;
+        font-size: 16px;
+    }
+    .index-leasing-buttons__link {
+        font-size: 18px;
+        padding: 0.5px 20px;
+    }
+    .index-catalog .index-title {
+        max-width: 50%;
+    }
+    .index-catalog .index-title-complex{
+        margin-bottom: 70px;
+    }
+    .index-catalog-btn {
+        padding: 10px 35px;
+    }
+    .popup input[type=submit], .workarea input[type=submit] {
+        padding: 11.5px 10px;
+    }
+    .popup input[type=email], .popup input[type=password], .popup input[type=tel], .popup input[type=text], .workarea input[type=email], .workarea input[type=password], .workarea input[type=tel], .workarea input[type=text] {
+        padding: 11.5px 20px;
+    }
+    .index-catalog .index-title:before,
+    .index-leasing .index-title:before,
+    .index-services .index-title:before,
+    .index-news .index-title:before{
+        width: 175px;
+        left: -20px;
+        top: 11px;
+        transform: none;
+    }
+    .index-services-view{
+        padding-left: 0;
+    }
+    .index-services-view__info {
+        padding: 70px 85px 40px 30px;
+    }
+    .index-services-view__img {
+        margin: 30px 0 30px -115px;
+    }
+    .index-services-view{
+        margin-right: -250px;
+    }
+    .index-services-view__info{
+        overflow: hidden;
+    }
+    .index-services-view__info h2:before {
+        width: 121px;
+        left: -30px;
+        top: 14px;
+    }
+    .index-leasing-buttons__link {
+        padding: .5px 5px;
+    }
+    .index-leasing-buttons{
+        width: 300px;
+        min-width: 300px;
+    }
+    .index-leasing__view{
+        width: 300px;
+        min-width: 300px;
+    }
+    .index-leasing,
+    .index-services,
+    .index-news{
+        padding: 60px 0;
+    }
+    .index-catalog {
+        padding-bottom: 60px;
+    }
+    .index-top-wrap{
+        margin-bottom: 60px;
+    }
+    .index-catalog-slider {
+        padding-bottom: 60px;
+    }
+    .page-header-search {
+        margin-left: 22px;
+    }
+    .page-header-sub__view {
+        padding: 40px 55px 50px 0;
+    }
+    .page-header-submenu {
+        top: 40px;
+    }
+    .page-pre {
+        min-height: 310px;
+        margin-bottom: 60px;
+    }
+    .press__wrap{
+        flex-wrap:wrap;
+    }
+    .press__r {
+        width: 100%;
+    }
+    .press__pre {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .press__info {
+        width: 100%;
+        padding-right: 0;
+        max-width: 100%;
+        flex: 1;
+    }
 }
 
 @media screen and (max-width: 767px){
     body {
-        padding: 0 10px;
+        // padding: 0 10px;
+        padding:0;
         font-size: 16px;
     }
     .page-footer-menu{
@@ -262,6 +572,414 @@
             margin-bottom: 0;
         }
     }
+    .page-header__btn,
+    .page-header-nav{
+        display: none;
+    }
+    .page-header__phone {
+        margin: 0;
+        padding-left: 0;
+        text-indent: -9999em;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 70px;
+        top: 51px;
+        z-index: 3;
+    }
+    .page-header__phone:before {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 20px;
+        height: 20px;
+    }
+    .page-header-toggle__item {
+        padding: 14px 11px 12px 11px;
+    }
+    .page-header__location{
+        margin: 0;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 130px;
+        top: 51px;
+        padding: 0;
+        z-index: 3;
+        &:before{
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            width: 17px;
+            height: 25px;
+        }
+    }
+    .page-header-top{
+        .container-fluid{
+            position: static;
+        }
+    }
+    .page-header-menu {
+        padding: 15px 0;
+    }
+    .page-header-search {
+        margin-left: 0;
+        width: 20px;
+        height: 20px;
+        background-size: 20px 20px!important;
+    }
+    .page-header-toggle{
+        margin-right: 0;
+    }
+    .page-header-top-more {
+        margin-right: -10px;
+    }
+    .page-content {
+        padding: 91px 0 20px;
+    }
+    .m-index .page-content {
+        padding-bottom: 0;
+    }
+    .index-top-wrap {
+        margin: 0 0 60px;
+    }
+    .index-catalog {
+        padding-bottom: 60px;
+    }
+    .index-leasing {
+        padding: 60px 0;
+    }
+    .index-news {
+        padding: 60px 0 30px;
+    }
+    .page-footer {
+        margin: 0 10px;
+    }
+    .index-top-wrap .breadcrumbs{
+        display: none;
+    }
+    .index-top__in {
+        padding: 90px 0 0;
+    }
+    .index-top__title{
+        font-size: 30px;
+    }
+    .index-top-add {
+        padding-left: 50px;
+        margin-bottom: 30px;
+    }
+    .index-top-form__item.m-submit {
+        margin-left: 20px;
+    }
+    .popup input[type=submit],
+    .workarea input[type=submit] {
+        padding: 13px 5px;
+    }
+    .popup input[type=email], .popup input[type=password], .popup input[type=tel], .popup input[type=text], .workarea input[type=email], .workarea input[type=password], .workarea input[type=tel], .workarea input[type=text] {
+        padding: 13px 10px;
+    }
+    .index-top__item {
+        min-height: 490px;
+    }
+    .btn {
+        padding: 11.5px 15px;
+    }
+    .index-catalog, .index-leasing, .index-news, .index-services{
+        margin: 0;
+    }
+    .index-services {
+        padding: 60px 0;
+    }
+    .index-catalog__inner {
+        padding: 20px;
+    }
+    .slider-nav .slide-m-prev {
+        margin-right: 10px;
+    }
+    .slider-nav .slide-m-next {
+        margin-left: 3px;
+    }
+    .index-services-view__info h2:before {
+        top: 9px;
+    }
+    .index-news-wrap,
+    .index-services-wrap{
+        .page-news__item{
+            padding-right: 20px;
+            margin-bottom: 0;
+        }
+        .page-news__img{
+            height: 235px;
+        }
+    }
+    .page-news__title {
+        font-size: 18px;
+    }
+    .index-title-complex{
+        margin-bottom: 60px;
+    }
+    .index-news__slider .slick-current,
+    .index-services__slider .slick-current {
+        transform: translateY(70px);
+    }
+    .index-news__slider .slick-list,
+    .index-services__slider .slick-list{
+        padding-bottom: 70px;
+    }
+    .page-pre {
+        min-height: auto;
+        padding-bottom: 40px;
+    }
+    .r-tabs-nav {
+        display: none;
+    }
+
+    .r-tabs-accordion-title {
+        display: block;
+        margin-bottom: 20px;
+        .r-tabs-anchor{
+            border: 1px solid #828282;
+            border-radius: 3px;
+            color: #4F4F4F;
+            text-align: center;
+            padding: 14px 10px;
+            display: block;
+        }
+       
+    }
+    .r-tabs-panel {
+        padding: 15px 15px 40px;
+    }
+    .press-list {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .index-title-complex{
+        flex-wrap:wrap;
+    }
+    .index-title-wrap{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .index-leasing-buttons {
+        width: auto;
+        min-width: auto;
+    }
+    .index-leasing-buttons__link {
+        padding: .5px 25px;
+    }
+    .index-leasing__wrap{
+        flex-wrap:wrap;
+    }
+    .index-leasing-toggle {
+        padding-top: 0;
+        margin-bottom: 30px;
+    }
+    .index-leasing-toggle__add{
+        padding-top: 0;
+    }
+    .index-leasing__view {
+        width: 100%;
+        min-width: 100%;
+        margin: 0;
+    }
+    .index-leasing-result {
+        margin-bottom: 30px;
+    }
+    .index-title-complex {
+        margin-bottom: 60px;
+    }
+    .index-catalog .index-title {
+        max-width: 100%;
+    }
+    .title-btn-wrap{
+        width: 100%;
+        margin-top: 40px;
+        justify-content: center;
+    }
+    .index-services-view__info{
+        ul{
+            margin-bottom: 0;
+            li{
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .index-services .index-title-complex{
+        margin-bottom: 60px;
+    }
+    .index-catalog-slider {
+        padding-bottom: 90px;
+    }
+    .index-catalog-wrap .slider-nav {
+        bottom: 75px;
+    }
+    .index-catalog .index-title-complex {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .mailing__wrap {
+        flex-wrap:wrap;
+        margin: 0 0 20px;
+    }
+    .mailing__item {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 20px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    .index-top-form__wrap{
+        flex-wrap: wrap;
+        max-width: 390px;
+        margin: 0 auto;
+    }
+    .index-top-form__item,
+    .index-top-form__item:first-child {
+        padding-right: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .index-top-form__item.m-submit {
+        margin-left: 0;
+        width: 100%;
+        min-width: 100%;
+        margin-bottom: 0;
+    }
+    .index-top__in {
+        padding: 60px 0;
+    }
+    .slider-nav {
+        left: 0;
+        transform: none;
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        justify-content: center;
+        bottom: 15px;
+    }
+    .index-form-msg {
+        text-align: center;
+    }
+    .index-top__item {
+        min-height: 570px;
+    }
+    .index-services-view {
+        margin-right: -10px;
+    }
+    .index-services-view__info {
+        padding: 70px 10px 60px 10px;
+        width: 100%;
+        order: 2;
+        margin-top: -30px;
+    }
+    .index-services-view__img {
+        margin: 0 10px 0 10px;
+        width: 100%;
+        order: 1;
+        height: 200px;
+        position: relative;
+        z-index: 2;
+    }
+    .index-services-view{
+        flex-wrap: wrap;
+    }
+    .index-services-view {
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+    .index-services{
+        padding-bottom: 0;
+    }
+    .index-news__slider .slick-list,
+    .index-services__slider .slick-list{
+        margin-right: 0;
+        padding-bottom: 25px;
+    }
+    .index-news__slider .slick-current,
+    .index-services__slider .slick-current{
+        transform: translateY(0);
+    }
+    .index-news-wrap .page-news__item,
+    .index-services-wrap .page-news__item{
+        padding-right: 0;
+    }
+    .index-news-wrap,
+    .index-services-wrap{
+        margin: 0 -10px;
+    }
+    .index-services-wrap{
+        margin-bottom: 40px;
+    }
+    .page-news__info {
+        margin: 0 10px;
+    }
+    .index-news {
+        padding: 50px 0 20px;
+    }
+    .index-top-wrap {
+        margin: 0 0 50px;
+    }
+    .index-catalog {
+        padding-bottom: 50px;
+    }
+    .index-leasing,
+    .index-services{
+        padding: 50px 0;
+    }
+    .index-services{
+        padding-bottom: 0;
+    }
+    .index-leasing-buttons__link {
+        padding: .5px 5px;
+    }
+    .index-leasing-buttons {
+        width: 100%;
+    }
+    .index-news__slider,
+    .index-services__slider{
+        padding-bottom: 45px;
+    }
+    .index-news-wrap .slider-nav,
+    .index-services-wrap .slider-nav{
+        bottom: 0;
+    }
+    .index-news{
+        padding-bottom: 0;
+    }
+    .index-title,
+    .index-services-view__info h2{
+        font-size: 24px;
+    }
+    .index-title-wrap__add {
+        font-size: 16px;
+    }
+    .index-services .index-title:before{
+        width: 97px;
+    }
+    .press__img {
+        margin-right: 10px;
+        width: 170px;
+        height: 120px;
+    }
+    .r-tabs-panel {
+        padding: 15px;
+    }
+    .page-news-v__title {
+        font-size: 20px;
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+    }
+    .paging {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -272,5 +990,9 @@
         margin-left: 0;
         width: 100%;
         margin-top: 8px;
+    }
+    .mailing__add a{
+        display: block;
+        text-align: center;
     }
 }

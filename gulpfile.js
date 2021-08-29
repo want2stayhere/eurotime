@@ -123,6 +123,8 @@ gulp.task('js:build', function () {
 gulp.task('libs:build', function () {
     return gulp.src([
             'assets/src/js/jquery/jquery.js',
+            'assets/src/js/jquery-ui/jquery-ui.js',
+            'assets/src/js/jquery-ui/ui-touch-punch.js',
             path.libs.js
         ]) // файлы libs
         .pipe(plumber()) // для отслеживания ошибок

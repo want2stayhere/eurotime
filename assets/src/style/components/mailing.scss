@@ -1,0 +1,30 @@
+.mailing{
+    padding: 60px 0
+}
+.mailing__form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.mailing__wrap{
+    display: flex;
+    margin: 0 -10px 29px;
+}
+.mailing__item{
+    padding: 0 10px;
+    flex-grow: 1;
+    input[type=submit]{
+        width: 100%;
+    }
+}
+.mailing__add{
+    font-size: 12px;
+    text-align: center;
+    a{
+        color: #4F4F4F;
+        text-decoration: underline;
+        &:hover{
+            color: #4F4F4F;
+            text-decoration: none;
+        }
+    }
+}

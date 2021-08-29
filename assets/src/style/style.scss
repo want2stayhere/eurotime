@@ -95,6 +95,11 @@ span.breadcrumbs__item{
 
 .page-pre{
     position: relative;
+    min-height: 400px;
+    margin-bottom: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     &:before{
         content: "";
         display: block;
@@ -115,6 +120,21 @@ span.breadcrumbs__item{
         top: 0;
         background: #fff;
     }
+    .breadcrumbs__item,
+    .page-title{
+        color: #fff;
+    }
+}
+
+.page-pre__in{
+    display: block;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(50, 52, 53, 0.2);
+    backdrop-filter: blur(3px);
 }
 
 .col-wrap{
@@ -252,4 +272,193 @@ span.breadcrumbs__item{
     font-style: italic;
     color: #B8543E;
     text-align: right;
+}
+
+
+.index-top-btn{
+    padding-left: 100px;
+}
+.btn{
+    display: inline-block;
+    border: 1.5px solid #DC6448;
+    border-radius: 3px;
+    text-align: center;
+    color: #DC6448;
+    padding: 10px 61px;
+    transition: all .3s ease;
+    &:hover{
+        background: #B8543E;
+        color: #fff;
+        border: 1.5px solid #B8543E;
+    }
+    &:active{
+        background: #894039;
+        color: #fff;
+        border: 1.5px solid #894039;
+    }
+}
+
+.el-animate{
+    opacity: 0;
+	transform: translateY(30px);
+    &.el-show{
+        opacity: 1;
+		transition: all 1.5s ease;
+		transform: translateY(0);
+    }
+    &:nth-child(2){
+        transition-delay: .3s;
+    }
+		
+	&:nth-child(3){
+        transition-delay: .6s;
+    }
+		
+	&:nth-child(4){
+        transition-delay: .9s;
+    }
+		
+	&:nth-child(5){
+        transition-delay: 1.2s;
+    }
+		
+	&:nth-child(6){
+        transition-delay: 1.5s;
+    }
+		
+	&:nth-child(7){
+        transition-delay: 1.8s;
+    }
+		
+	&:nth-child(8){
+        transition-delay: 2.1s;
+    }
+		
+	&:nth-child(9){
+        transition-delay: 2.4s;
+    }
+		
+	&:nth-child(10){
+        transition-delay: 2.7s;
+    }
+		
+}
+	
+.m-default{
+    .page-pre .breadcrumbs__item, .page-pre .page-title{
+        color: #333;
+    }
+    .page-pre {
+        min-height: inherit!important;
+        margin-bottom: 0!important;
+        padding: 0!important;
+    }
+}
+
+
+
+.r-tabs-nav {
+    margin: 0 -10px 130px -10px!important;
+    padding: 0!important;
+    display:flex;
+    
+}
+
+.r-tabs-tab {
+    margin: 0!important;
+    list-style: none;
+    padding: 0 10px!important;
+    flex-grow: 1;
+    &:before{
+        display: none;
+    }
+    .r-tabs-anchor{
+        display: block;
+        border: 1px solid #828282;
+        border-radius: 3px;
+        color: #4F4F4F;
+        text-align: center;
+        padding: 14px 10px;
+    }
+    &.r-tabs-state-active,
+    &:hover{
+        .r-tabs-anchor{
+            background: #808386;
+            color: #fff;
+        }
+    }
+}
+
+.r-tabs-panel {
+    //padding: 15px;
+    display: none;
+}
+
+.r-tabs-accordion-title {
+    display: none;
+}
+
+.r-tabs-panel.r-tabs-state-active {
+    display: block;
+}
+
+
+.paging{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-bottom: 40px;
+}
+
+
+.paging__link{
+    font-family: 'als_gorizontregular_expanded';
+    transition: all .3s ease;
+    color: #4F4F4F;
+    margin-right: 10px;
+    &:last-child{
+        margin-right: 0;
+    }
+    &:hover{
+        color: $alt-color;
+    }
+    &.active{
+        font-size: 28px;
+        pointer-events: none;
+    }
+}
+
+.paging__prev{
+    background: url(../img/svg/prev-b.svg) center no-repeat;
+    width: 41px;
+    height: 8px;
+    position: relative;
+    pointer-events: all;
+    cursor: pointer;
+    margin-right: 20px;
+    &:hover{
+        background: url(../img/svg/prev-h.svg) center no-repeat;
+    }
+}
+.paging__next{
+    background: url(../img/svg/next-b.svg) center no-repeat;
+    width: 41px;
+    height: 8px;
+    position: relative;
+    pointer-events: all;
+    cursor: pointer;
+    margin-left: 10px;
+
+    &:hover{
+        background: url(../img/svg/next-h.svg) center no-repeat;
+    }
+}
+
+
+:not(.m-index){
+    .el-animate{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    //= template/head.html
+</head>
+<body>
+	<!--LAYOUT-->
+	<div class="layout">
+		//= template/header.html
+		<main class="page-content workarea">
+			<div class="page-pre" style="background-image: url(img/content/reviews-bg.jpg);">
+                <div class="page-pre__in"></div>
+				<div class="breadcrumbs">
+					<div class="container-fluid">
+						<div class="breadcrumbs__wrap">
+							<a href="#" class="breadcrumbs__item">Главная</a>
+							<span class="breadcrumbs__item">Отзывы</span>
+						</div>
+					</div>
+				</div>
+				<div class="page-title">
+					<div class="container-fluid">
+						<div class="indent">
+							<h1>Отзывы о нас</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<!-- content-part -->
+                    <div class="reviews">
+                        dd
+                    </div>
+
+                    <div class="paging">
+                        <a href="#" class="paging__prev"></a>
+                        <a href="#" class="paging__link active">01</a>
+                        <a href="#" class="paging__link">02</a>
+                        <a href="#" class="paging__link">03</a>
+                        <a href="#" class="paging__link">. . .</a>
+                        <a href="#" class="paging__link">07</a>
+                        <a href="#" class="paging__next"></a>
+                    </div>
+
+                    //= template/mailing.html
+				<!-- end content-part -->
+			</div>
+		</main>
+	</div><!-- END LAYOUT-->
+	//= template/footer.html
+
+	<script src="js/libs/libs.min.js"></script>
+	<script src="js/interface.js"></script>
+	<script src="js/pages.js"></script>
+</body>
+</html>
